@@ -108,8 +108,8 @@ public class RestaurantAdapter_List extends BaseAdapter {
         mViewHolder.txtTags_list_item.setText(al_RestaurantModel_received.get(position).getCategories());
 
         mViewHolder.txtDistance_list_item.setText(al_RestaurantModel_received.get(position).
-                getDistanceFromUser() + " " + al_RestaurantModel_received.get(position).
-                getNeighbourhoodName());
+                getDistanceFromUser() + mContext.getString(R.string.m_metres) +
+                al_RestaurantModel_received.get(position).getNeighbourhoodName());
 
         return convertView;
     }
