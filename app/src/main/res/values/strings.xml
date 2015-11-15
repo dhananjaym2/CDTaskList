@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CDTaskList</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- General strings for complete app -->
+    <string name="NoInternetConnection">No internet connection detected! A working internet connection is needed to continue.</string>
+    <string name="UnableToConnectToServer">We are unable to connect to the server! Please try again a bit later.</string>
+    <string name="RequestTimedOutConnectingToServer">Request timed out while connecting to the server! Please try again a bit later.</string>
+    <string name="OopsSomethingWentWrong">Oops! Something went wrong.</string>
+    <string name="OK">OK</string>
+    <string name="LoadingProgressDialog">Loading&#8230;</string>
+
+    <string name="black_dot">\u0020&#9679;\u0020</string>
+    <string name="Offers">\u0020Offers</string>
+    <string name="Offer">\u0020Offer</string>
+
+    <string name="gps_enable_txt">Please enable GPS/location services on your device to allow the app accessing your location.</string>
+</resources>

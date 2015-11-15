@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/gray_rounded_rectangle" />
+
+    <item
+        android:bottom="@dimen/height_visible_gray_rounded_rectangle"
+        android:drawable="@drawable/white_rounded_rectangle" />
+</layer-list>

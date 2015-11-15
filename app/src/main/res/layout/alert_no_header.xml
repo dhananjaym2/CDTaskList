@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtAlertText_no_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="@dimen/d10dp"
+        android:text="txtAlertText"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/txt16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/txtAlertText_no_header"
+        android:background="@color/textGrayColor" />
+
+    <Button
+        android:id="@+id/btnAlert_no_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtAlertText_no_header"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:text="@string/OK"
+        android:textColor="@color/textGrayColor"
+        android:textSize="@dimen/txt16sp" />
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="@dimen/d20dp"-->
+    <!--android:layout_marginEnd="@dimen/d20dp"-->
+    <!--android:layout_marginRight="@dimen/d20dp"-->
+</RelativeLayout>
